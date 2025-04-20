@@ -1,0 +1,13 @@
+prefix=/Users/parthrait/Desktop/red_wine_ml_pred/venv
+exec_prefix=/Users/parthrait/Desktop/red_wine_ml_pred/venv
+libdir=/Users/parthrait/Desktop/red_wine_ml_pred/venv/lib
+sharedlibdir=/Users/parthrait/Desktop/red_wine_ml_pred/venv/lib
+includedir=/Users/parthrait/Desktop/red_wine_ml_pred/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

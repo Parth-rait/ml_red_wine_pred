@@ -1,0 +1,11 @@
+prefix=/Users/parthrait/Desktop/red_wine_ml_pred/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/parthrait/Desktop/red_wine_ml_pred/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
